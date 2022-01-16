@@ -8,3 +8,5 @@ cd yay-git
 makepkg -si
 cd ..
 rm -r yay-git
+
+echo "Done"
