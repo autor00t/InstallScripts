@@ -9,3 +9,4 @@ sudo systemctl start NetworkManager
 
 sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
 echo "Remember to modify the .xinitrc file, exec startplasma-x11"
+echo "Done"
