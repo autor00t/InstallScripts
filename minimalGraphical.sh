@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Remember to make multilib available"
+echo "Remember to enable multilib"
 
 sudo pacman -Syuu
 sudo pacman -S mesa lib32-mesa xorg xorg-xinit plasma-desktop
