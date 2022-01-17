@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 sudo pacman -Syuu
 sudo pacman -S git base-devel
