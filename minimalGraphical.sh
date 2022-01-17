@@ -3,7 +3,9 @@ echo "Remember to enable multilib"
 
 sudo pacman -Syuu
 sudo pacman -S mesa lib32-mesa xorg xorg-xinit plasma-desktop
-sudo pacman -S firefox plasma-nm plasma-pa dolphin konsole kdeplasma-addons kde-gtk-config ark powerdevil
+sudo pacman -S firefox plasma-nm plasma-pa dolphin alacritty kdeplasma-addons kde-gtk-config ark powerdevil neofetch
+sudo pacman -S kuickshow okular xdg-utils vlc
+yay -S fim
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 
