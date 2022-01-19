@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Remember to enable multilib"
+echo "Remember to enable multilib and install yay"
 
 sudo pacman -Syuu
 sudo pacman -S xorg xorg-xinit plasma-desktop linux-headers
