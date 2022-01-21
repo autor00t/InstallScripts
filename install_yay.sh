@@ -1,7 +1,9 @@
 #!/bin/bash
 
+echo "Remember to enable multilib"
+
 sudo pacman -Syuu
-sudo pacman -S git base-devel
+sudo pacman -S git base-devel linux-headers xdg-utils
 
 git clone https://aur.archlinux.org/yay-git.git
 cd yay-git
