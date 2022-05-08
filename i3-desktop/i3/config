@@ -304,3 +304,9 @@ exec_always --no-startup-id "lxsession"
 
 # Set mouse speed
 exec_always --no-startup-id "xinput --set-prop 'pointer:Logitech G305' 'Coordinate Transformation Matrix' 0.5 0 0 0 0.5 0 0 0 1"
+
+# Start spotify at startup
+exec spotify
+
+# Autotiling like bspwm, you need to install autotiling(aur)
+exec_always --no-startup-id autotiling
