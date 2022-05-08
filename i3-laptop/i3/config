@@ -231,6 +231,3 @@ exec_always --no-startup-id "picom --experimental-backend --config ~/.config/pic
 
 # Execute polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-
-# Execute network-manager-applet
-exec --no-startup-id nm-applet
