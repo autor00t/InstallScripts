@@ -231,3 +231,6 @@ exec_always --no-startup-id "picom --experimental-backend --config ~/.config/pic
 
 # Execute polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
+
+# Polkit agent autostart
+exec_always --no-startup-id "lxsession"
