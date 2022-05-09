@@ -15,7 +15,7 @@ sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation
 yay -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
 
 #wqy-zenhei is for Asian languages
-sudo pacman -S discord steam wqy-zenhei fuse ntfs-3g udisks2 udiskie code
+sudo pacman -S discord steam wqy-zenhei fuse ntfs-3g udisks2 udiskie code flameshot
 yay -S spotify picom-git autotiling
 
 echo "Done, please work...."
