@@ -11,11 +11,16 @@ sudo systemctl enable cups.socket
 sudo systemctl start cups.socket
 echo "Remember to add the cups-pdf printer"
 
-sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation 
 yay -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family
 
 #wqy-zenhei is for Asian languages
 sudo pacman -S discord steam wqy-zenhei fuse ntfs-3g udisks2 udiskie code flameshot ranger zathura zathura-pdf-mupdf dunst
 yay -S spotify picom-git autotiling
+
+sudo pacman -S --needed ttf-caladea ttf-carlito ttf-dejavu ttf-liberation ttf-linux-libertine-g noto-fonts adobe-source-code-pro-fonts adobe-source-sans-pro-fonts adobe-source-serif-pro-fonts
+yay -S ttf-gentium-basic
+
+sudo pacman -S libreoffice-still hunspell-es_cl
 
 echo "Done, please work...."
