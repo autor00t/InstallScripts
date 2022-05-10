@@ -219,6 +219,7 @@ bindsym $mod+Shift+Control+0 move container to workspace number $wsl10
 # Makes applications launch in certain workspaces
 for_window [class="Spotify"] move to workspace $wsl10
 for_window [class="discord"] move to workspace $wsl9
+for_window [class="Thunderbird"] move to workspace $wsl8
 
 # Disable windows titlebars.
 for_window [class=".*"] border pixel 0
@@ -306,7 +307,10 @@ exec_always --no-startup-id "lxsession"
 exec_always --no-startup-id "xinput --set-prop 'pointer:Logitech G305' 'Coordinate Transformation Matrix' 0.5 0 0 0 0.5 0 0 0 1"
 
 # Start spotify at startup
-exec spotify
+exec --no-startup-id spotify
+
+# Start Thunderbird at startup
+exec --no-startup-id thunderbird
 
 # Autotiling like bspwm, you need to install autotiling(aur)
 # exec_always --no-startup-id autotiling
