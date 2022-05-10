@@ -309,7 +309,7 @@ exec_always --no-startup-id "xinput --set-prop 'pointer:Logitech G305' 'Coordina
 exec spotify
 
 # Autotiling like bspwm, you need to install autotiling(aur)
-exec_always --no-startup-id autotiling
+# exec_always --no-startup-id autotiling
 
 # Mount OneDrive
 exec --no-startup-id "sh -c \"rclone --vfs-cache-mode writes mount onedrive: ~/onedrive\""
