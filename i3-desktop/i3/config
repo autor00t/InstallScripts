@@ -286,7 +286,7 @@ exec_always --no-startup-id setxkbmap latam
 # exec_always --no-startup-id xrandr --output DP-5 --auto --primary
 
 # Lock screen
-bindsym $mod+Shift+x exec ~/.bin/scripts/lock.sh
+bindsym $mod+Shift+x exec --no-startup-id i3lock -t -i ~/Pictures/wallpaper.png
 
 # Wallpaper nitrogen
 exec --no-startup-id nitrogen --restore &
