@@ -1,0 +1,2 @@
+Fix VS Code Jupyter Notebook problem:
+https://www.reddit.com/r/archlinux/comments/shhzpt/vscode_jupyter_notebooks_issue/
