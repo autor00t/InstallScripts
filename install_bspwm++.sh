@@ -25,4 +25,7 @@ yay -S ttf-gentium-basic
 
 sudo pacman -S libreoffice-still hunspell-es_cl
 
+install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
+install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
+
 echo "Done, please work...."
