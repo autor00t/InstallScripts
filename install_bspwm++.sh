@@ -31,7 +31,7 @@ install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 sudo pacman -S python-pip python-pywal
 # Just do wal -i "picture", and remember to put the line (cat ~/.cache/wal/sequences &) on your .zshrc
 # Also, remember to create this function on your .zshrc:
-# wal-tile() {
+# wal-scale() {
 #     wal -n -i "$@"
 #     feh --bg-scale "$(< "${HOME}/.cache/wal/wal")"
 # }
