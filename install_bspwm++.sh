@@ -29,6 +29,7 @@ install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
 install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 
 sudo pacman -S python python-pip python-pywal
+yay -S themix-full-git # For the gtk theme
 pip install --user colorz
 # Just do wal -i "picture", and remember to put the line (cat ~/.cache/wal/sequences &) on your .zshrc
 # Also, remember to create this function on your .zshrc:
