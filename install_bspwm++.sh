@@ -28,7 +28,7 @@ sudo pacman -S libreoffice-still hunspell-es_cl
 install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
 install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 
-sudo pacman -S python-pip python-pywal jq
+sudo pacman -S python-pip python-pywal
 # Just do wal -i "picture", and remember to put the line (cat ~/.cache/wal/sequences &) on your .zshrc
 # Also, remember to create this function on your .zshrc:
 # wal-scale() {
