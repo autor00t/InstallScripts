@@ -13,7 +13,7 @@ sudo systemctl enable cups.socket
 sudo systemctl start cups.socket
 echo "Remember to add the cups-pdf printer"
 
-sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation ttf-font-awesome mathjax
+sudo pacman -S noto-fonts-cjk noto-fonts-emoji noto-fonts ttf-liberation ttf-font-awesome otf-font-awesome mathjax
 yay -S ttf-freefont ttf-ms-fonts ttf-linux-libertine ttf-dejavu ttf-inconsolata ttf-ubuntu-font-family nerd-fonts-complete
 
 #wqy-zenhei is for Asian languages
