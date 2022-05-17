@@ -2,4 +2,4 @@
 
 killall picom
 "$@"
-picom --experimental-backend --config ~/.config/picom/picom.conf
+picom --experimental-backend --config ~/.config/picom/picom.conf &
