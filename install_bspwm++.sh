@@ -38,4 +38,9 @@ pip install --user colorz
 #     feh --bg-scale "$(< "${HOME}/.cache/wal/wal")"
 # }
 
+# Virtual box things
+sudo pacman -S virtualbox virtualbox-host-modules-arch virtualbox-guest-iso
+yay -S virtualbox-ext-oracle   
+# Also, remember to add the user to the vboxusers group
+
 echo "Done, please work...."
