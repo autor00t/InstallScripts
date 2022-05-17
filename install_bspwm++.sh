@@ -43,6 +43,8 @@ sudo pacman -S virtualbox virtualbox-host-modules-arch virtualbox-guest-iso
 yay -S virtualbox-ext-oracle   
 # Also, remember to add the user to the vboxusers group
 
+yay -S mangohud lib32-mangohud
+
 # Oh my zsh
 sudo pacman -S zsh wget
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
