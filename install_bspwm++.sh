@@ -28,7 +28,7 @@ sudo pacman -S libreoffice-still hunspell-es_cl
 install -Dm755 /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/bspwmrc
 install -Dm644 /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/sxhkdrc
 
-sudo pacman -S python python-pip python-pywal
+sudo pacman -S python python-pip python-pywal papirus-icon-theme
 yay -S themix-full-git # For the gtk theme
 pip install --user colorz
 # Just do wal -i "picture", and remember to put the line (cat ~/.cache/wal/sequences &) on your .zshrc
@@ -42,5 +42,11 @@ pip install --user colorz
 sudo pacman -S virtualbox virtualbox-host-modules-arch virtualbox-guest-iso
 yay -S virtualbox-ext-oracle   
 # Also, remember to add the user to the vboxusers group
+
+# Oh my zsh
+sudo pacman -S zsh wget
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 echo "Done, please work...."
