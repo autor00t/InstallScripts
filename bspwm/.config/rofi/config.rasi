@@ -146,4 +146,4 @@ configuration {
   }
 }
 // @theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
-@theme "/home/auto_root/.cache/wal/colors-rofi-dark.rasi"
+@theme "~/.cache/wal/colors-rofi-dark.rasi"
