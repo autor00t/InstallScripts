@@ -105,6 +105,8 @@ source $ZSH/oh-my-zsh.sh
 wal-scale() {
     wal -n -i "$@"
     feh --bg-scale "$(< "${HOME}/.cache/wal/wal")"
+    ln -sf ${HOME}/.cache/wal/dunstrc ${HOME}/.config/dunst/dunstrc
+    killall dunst
 }
 
 pfetch
