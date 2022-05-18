@@ -27,6 +27,7 @@ bspc config presel_feedback_color "$color1"
 # "Services" autostart
 setxkbmap latam
 xinput --set-prop 'pointer:Logitech G305' 'Coordinate Transformation Matrix' 0.4 0 0 0 0.4 0 0 0 1
+xsetroot -cursor_name left_ptr &
 xset s 0 0 -dpms
 lxsession &
 picom --experimental-backend --config $HOME/.config/picom/picom.conf &
