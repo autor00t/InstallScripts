@@ -47,6 +47,9 @@ yay -S mangohud lib32-mangohud
 
 sudo pacman -S net-tools wireless_tools
 
+# Archer T4U AC1300 drivers
+yay -S rtl88x2bu-dkms-git
+
 # Oh my zsh
 sudo pacman -S zsh wget
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
