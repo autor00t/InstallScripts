@@ -47,7 +47,7 @@ yay -S mangohud lib32-mangohud
 
 sudo pacman -S net-tools wireless_tools
 
-# Archer T4U AC1300 drivers
+# Archer T4U AC1300 drivers, remember to reboot after (honestly I'm surprised this worked with no issues)
 yay -S rtl88x2bu-dkms-git
 
 # Oh my zsh
