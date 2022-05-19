@@ -45,6 +45,8 @@ yay -S virtualbox-ext-oracle
 
 yay -S mangohud lib32-mangohud
 
+sudo pacman -S net-tools wireless_tools
+
 # Oh my zsh
 sudo pacman -S zsh wget
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
