@@ -12,3 +12,7 @@ For udiskie, just add the line "udiskie &" to .xinitrc
 Fix VS Code Jupyter Notebook problem:
 
 https://www.reddit.com/r/archlinux/comments/shhzpt/vscode_jupyter_notebooks_issue/
+
+To install the Archer T4U AC1300 driver on kali follow this guide:
+
+https://github.com/morrownr/88x2bu-20210702
