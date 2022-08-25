@@ -5,8 +5,8 @@ sudo pacman -S network-manager-applet dialog wpa_supplicant bluez bluez-utils xd
 sudo pacman -S xorg xorg-xinit
 sudo cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
-sudo pacman -S bspwm sxhkd ttf-dejavu polybar rofi kitty firefox lxsession neofetch vlc parted gparted lxappearance
-yay -S pfetch
+sudo pacman -S bspwm sxhkd ttf-dejavu polybar rofi kitty firefox lxsession neofetch vlc parted gparted lxappearance xclip
+yay -S pfetch vim-plug
 sudo pacman -S thunderbird thunderbird-i18n-es-es
 sudo pacman -S cups cups-pdf thunar thunar-archive-plugin ark
 sudo systemctl enable cups.socket
