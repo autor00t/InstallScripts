@@ -21,12 +21,3 @@ For neovim I just follow this guides:
 
 https://medium.com/geekculture/neovim-configuration-for-beginners-b2116dbbde84 <br>
 https://dev.to/elvessousa/my-basic-neovim-setup-253l
-
-# Temp
-#Server = http://mirror.anquan.cl/archlinux/$repo/os/$arch
-#Server = https://mirror.anquan.cl/archlinux/$repo/os/$arch
-#Server = http://mirror.archlinux.cl/$repo/os/$arch
-#Server = http://mirror1.cl.netactuate.com/archlinux/$repo/os/$arch
-#Server = https://mirror1.cl.netactuate.com/archlinux/$repo/os/$arch
-#Server = http://mirror.ufro.cl/archlinux/$repo/os/$arch
-#Server = https://mirror.ufro.cl/archlinux/$repo/os/$arch
