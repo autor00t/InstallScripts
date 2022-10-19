@@ -16,8 +16,3 @@ https://www.reddit.com/r/archlinux/comments/shhzpt/vscode_jupyter_notebooks_issu
 To install the Archer T4U AC1300 driver on kali follow this guide:
 
 https://github.com/morrownr/88x2bu-20210702
-
-For neovim I just follow this guides:
-
-https://medium.com/geekculture/neovim-configuration-for-beginners-b2116dbbde84 <br>
-https://dev.to/elvessousa/my-basic-neovim-setup-253l
