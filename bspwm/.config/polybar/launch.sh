@@ -18,4 +18,8 @@ MONITOR=HDMI-0 polybar left &
 MONITOR=HDMI-0 polybar center &
 MONITOR=HDMI-0 polybar right &
 
+# MONITOR=DP-1 polybar left &
+# MONITOR=DP-1 polybar center &
+# MONITOR=DP-1 polybar right &
+
 echo "Polybar launched..."

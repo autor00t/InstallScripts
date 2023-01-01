@@ -2,8 +2,12 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
+xrandr --output DP-5 --primary --mode 1920x1080 --rotate normal --output HDMI-0 --mode 1920x1080 --rotate normal --left-of DP-5 --output DP-1 --mode 1360x768 --rotate normal --pos 560x0
+xrandr --dpi 90
+
 bspc monitor DP-5 -d 1 2 3 4 5 6 7 8 9 10
-bspc monitor HDMI-0 -d 11 12 13 14 15 16 17 18 19 20
+bspc monitor HDMI-0 -d 11 12 13 14 15 16 17
+bspc monitor DP-1 -d 18 19 20
 
 # bspc config focus_follows_pointer true
 
@@ -33,15 +37,15 @@ lxsession &
 picom --experimental-backend --config $HOME/.config/picom/picom.conf &
 ~/.fehbg &
 $HOME/.config/polybar/launch.sh &
-rclone --vfs-cache-mode writes mount onedrive: ~/onedrive &
+# rclone --vfs-cache-mode writes mount onedrive: ~/onedrive &
 
 # Applications autostart
-bspc rule -a Thunderbird desktop=18
-bspc rule -a discord desktop=19
-bspc rule -a Steam desktop=10
-thunderbird &
-discord &
-steam &
+# bspc rule -a thunderbird desktop=18
+# bspc rule -a discord desktop=19
+# bspc rule -a Steam desktop=10
+# thunderbird &
+# discord &
+# steam &
 
 # bspc rule -a Gimp desktop='^8' state=floating follow=on
 # bspc rule -a Chromium desktop='^2'
