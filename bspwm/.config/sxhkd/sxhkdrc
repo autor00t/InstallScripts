@@ -9,6 +9,9 @@ super + Return
 # Firefox
 super + u
 	firefox
+	
+super + p
+	firefox --private-window
 
 # program launcher
 super + @space
