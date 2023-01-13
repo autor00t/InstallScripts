@@ -43,12 +43,7 @@ sudo pacman -S virtualbox virtualbox-host-modules-arch virtualbox-guest-iso
 yay -S virtualbox-ext-oracle   
 # Also, remember to add the user to the vboxusers group
 
-yay -S mangohud lib32-mangohud
-
 sudo pacman -S net-tools wireless_tools
-
-# Archer T4U AC1300 drivers, remember to reboot after (honestly I'm surprised this worked with no issues)
-yay -S rtl88x2bu-dkms-git
 
 # Oh my zsh
 sudo pacman -S zsh wget
