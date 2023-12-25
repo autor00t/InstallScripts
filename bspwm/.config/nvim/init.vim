@@ -7,6 +7,7 @@ set nowrap
 set mouse=a
 set ttyfast
 set clipboard+=unnamedplus " Remember to install xclip
+set noswapfile
 
 call plug#begin()
 	Plug 'vim-airline/vim-airline'

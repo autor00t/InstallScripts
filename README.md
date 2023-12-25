@@ -1,5 +1,5 @@
 # InstallScripts
-Personal scripts for arch installation, I'm stupid leave me alone.
+Personal scripts for arch installation.
 
 # A few notes
 To mount Windows drive from fstab table: (Remember to make the folder on mnt and change permisions)
