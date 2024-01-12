@@ -25,6 +25,7 @@ call plug#end()
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-l> :call CocActionAsync('jumpDefinition')<CR>
+let NERDTreeShowHidden=1
 
 nmap <F8> :TagbarToggle<CR>
 
